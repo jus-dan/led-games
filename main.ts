@@ -1,7 +1,3 @@
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    // optional: durch RGB wechseln
-    currentColor = (currentColor + 1) % 3
-})
 function toRgb (c: number) {
     if (c == 0) {
         return neopixel.colors(NeoPixelColors.Red)
